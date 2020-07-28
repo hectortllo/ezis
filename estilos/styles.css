@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 .sidebar {
   height: 100%;
   width: 240px;
@@ -24,4 +27,36 @@
 
 .logo {
   margin-left: 16px;
+}
+
+.menu-options {
+  border: 1px solid red;
+  margin-left: 232px;
+  padding: 25px 12px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu-options a {
+  text-decoration: none;
+  margin: 0px 8px;
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+}
+
+.graphic-image {
+  display: flex;
+  justify-content: center;
+}
+
+.error-text-area {
+  display: flex;
+  justify-content: center;
+}
+
+textarea {
+  margin: 25px 0 55px 0;
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
 }
